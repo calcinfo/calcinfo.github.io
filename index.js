@@ -104,9 +104,9 @@ var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(comptt*2))/4;
 
 
 
-     var tt= document.getElementById("tt").innerHTML = ((4*algott)+(comptt*2)+info2tt+(2*alg1tt)+(4*ana1tt)+(2*codtt)+eng1tt+termtt)/17;
-    console.log(tt); 
+       var toto= document.getElementById('toto').innerHTML = (eng1tt+deco*4+metodo*2+fund*10)/17;
+
      var ttncr=eng1cr+decocr+metodocr+fundcr;
-     var ttcr= document.getElementById('ttcr').innerHTML = crid(tt,30,ttncr);
+     var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,ttncr);
 
 }
