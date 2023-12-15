@@ -93,7 +93,7 @@ var codtd = Number(document.getElementById('codtd').value) ;
 
 var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(comptt*2))/4;
 
-  var decocr= document.getElementById('decocr').innerHTML = crid(deco,4);
+  var decocr= document.getElementById('decocr').innerHTML = crid(deco,4,0);
       var eng1tt = Number(document.getElementById('eng1tt').value);
 
 
