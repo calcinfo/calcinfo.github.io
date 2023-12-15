@@ -95,11 +95,12 @@ var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(comptt*2))/4;
 
   var decocr= document.getElementById('decocr').innerHTML = crid(deco,4,0);
       var eng1tt = Number(document.getElementById('eng1tt').value);
-
+var eng1cr= crid(eng1tt,2,0);
 
 
 
        var toto= document.getElementById('toto').innerHTML = (eng1tt+deco*4+metodo*2+fund*10)/17;
+  var ttcr= document.getElementById('ttcr').innerHTML = (eng1cr+decocr+metodocr+fundcr);
 
 
 
