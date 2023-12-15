@@ -98,7 +98,7 @@ var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(comptt*2))/4;
 
 
 
-  var eng1cr= document.getElementById('eng1cr').innerHTML = crid(eng1tt,1);
+  var eng1cr= document.getElementById('eng1cr').innerHTML = crid(eng1tt,2);
 
       
 
@@ -106,6 +106,6 @@ var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(comptt*2))/4;
 
      var tt= document.getElementById("tt").innerHTML = ((4*algott)+(comptt*2)+info2tt+(2*alg1tt)+(4*ana1tt)+(2*codtt)+eng1tt+termtt)/17;
 
-     var ttcr= document.getElementById('ttcr').innerHTML = crid(tt,1);
+     var ttcr= document.getElementById('ttcr').innerHTML = crid(tt,30);
 
 }
