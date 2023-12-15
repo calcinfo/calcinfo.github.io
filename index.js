@@ -100,7 +100,7 @@ var eng1cr= crid(eng1tt,2,0);
 
 
        var toto= document.getElementById('toto').innerHTML = (eng1tt+deco*4+metodo*2+fund*10)/17;
-  var ttcr= document.getElementById('ttcr').innerHTML = (eng1cr+decocr+metodocr+fundcr);
+  var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,(eng1cr+decocr+metodocr+fundcr));
 
 
 
