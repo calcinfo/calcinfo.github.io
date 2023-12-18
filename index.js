@@ -19,7 +19,7 @@ function calcu() {
 
  
 
-  var algott = document.getElementById('algott').value =  Number((algotd)*0.2+(algoctrl*0.6)+(algotp)*0.2);
+  var algott = document.getElementById('algott').value =  Number((algotd)*0.16+(algoctrl*0.68)+(algotp)*0.16);
 
 
 
@@ -30,7 +30,7 @@ function calcu() {
 
     var alg1ctrl = Number(document.getElementById('alg1ctrl').value);
 
-    var alg1tt = document.getElementById('alg1tt').value = Number((((alg1ntd)*4)+(alg1ctrl*6))/10);
+    var alg1tt = document.getElementById('alg1tt').value = Number((((alg1ntd)*0.34)+(alg1ctrl*0.66)));
 
 
  
@@ -44,7 +44,7 @@ function calcu() {
 
     var ana1ctrl = Number(document.getElementById('ana1ctrl').value);
 
-    var ana1tt = document.getElementById('ana1tt').value = Number((((ana1ntd)*4)+(ana1ctrl*6))/10);
+    var ana1tt = document.getElementById('ana1tt').value = Number((((ana1ntd)*0.34)+(ana1ctrl*0.66)));
   
 
 var fund=document.getElementById("fund").innerHTML = ((4*algott)+(2*alg1tt)+(4*ana1tt))/10;
@@ -85,7 +85,7 @@ var codtd = Number(document.getElementById('codtd').value) ;
 
     var codctrl = Number(document.getElementById('codctrl').value);
 
-    var codtt = document.getElementById('codtt').value = Number((((codtd)*4)+(codctrl*6))/10);
+    var codtt = document.getElementById('codtt').value = Number((((codtd)*0.34)+(codctrl*0.66)));
 
 
 
