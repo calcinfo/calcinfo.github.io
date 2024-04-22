@@ -47,7 +47,7 @@ function calcu() {
     var ana1tt = document.getElementById('ana1tt').value = Number((((ana1ntd)*0.34)+(ana1ctrl*0.66)));
   
 
-var fund=document.getElementById("fund").innerHTML = ((4*algott)+(2*alg1tt)+(4*ana1tt))/10;
+var fund=document.getElementById("fund").innerHTML = ((probtt)+(2*alg1tt)+(2*ana1tt))/5;
 
   var fundcr= document.getElementById('fundcr').innerHTML = crid(fund,11,0);
 
@@ -59,7 +59,7 @@ var fund=document.getElementById("fund").innerHTML = ((4*algott)+(2*alg1tt)+(4*a
 
   
 
-var metodo =document.getElementById("metodo").innerHTML = ((termtt)+(info2tt))/2;
+var metodo =document.getElementById("metodo").innerHTML = ((tictt*2)+(ipott))/3;
 
   var metodocr = document.getElementById('metodocr').innerHTML = crid(metodo,7,0);
 
@@ -91,15 +91,14 @@ var codtd = Number(document.getElementById('codtd').value) ;
 
   
 
-var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(comptt*2))/4;
+var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(algott*3))/5;
 
-  var decocr= document.getElementById('decocr').innerHTML = crid(deco,4,0);
-      var eng1tt = Number(document.getElementById('eng1tt').value);
-var eng1cr= crid(eng1tt,2,0);
+  var decocr= document.getElementById('decocr').innerHTML = crid(deco,9,0);
 
 
 
-       var toto= document.getElementById('toto').innerHTML = (deco*5+metodo*3+trans*3+fund*5)/16;
+
+       var toto= document.getElementById('toto').innerHTML = (deco*5+metodo*3+tran*3+fund*5)/16;
   var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,(eng1cr+decocr+metodocr+fundcr));
 
 
