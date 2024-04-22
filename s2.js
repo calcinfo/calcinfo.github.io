@@ -103,7 +103,7 @@ var codtd = Number(document.getElementById('codtd').value) ;
 
   
 
-var tran= Number(document.getElementById("tran").innerHTML) = Number(((termtt)+(electt*2))/3);
+var tran= document.getElementById("tran").innerHTML = Number(((termtt)+(electt*2))/3);
 
   var trancr= document.getElementById('trancr').innerHTML = crid(tran,3,0);
 var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(algott*3))/5;
