@@ -76,13 +76,13 @@ var metodo =document.getElementById("metodo").innerHTML = ((tictt*2)+(ipott))/3;
 
 
 
-    var comptd = Number(document.getElementById('comptd').value) ;
+    var electd = Number(document.getElementById('electd').value) ;
 
   
 
-    var compctrl = Number(document.getElementById('compctrl').value);
+    var electrl = Number(document.getElementById('electrl').value);
 
-    var comptt = document.getElementById('comptt').value = Number((((comptd)*4)+(compctrl*6))/10);
+    var comptt = document.getElementById('electt').value = Number((((electd)*0.4)+(electrl*0.6)));
 
 
 var codtd = Number(document.getElementById('codtd').value) ;
