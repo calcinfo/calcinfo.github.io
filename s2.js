@@ -65,7 +65,7 @@ var fund=document.getElementById("fund").innerHTML = ((probtt)+(2*alg1tt)+(2*ana
 
     var ipoctrl = Number(document.getElementById('ipoctrl').value);
 
-    var ipott = document.getElementById('ana1tt').value = Number((((ipotp)*0.4)+(ipoctrl*0.6)));
+    var ipott = document.getElementById('ipott').value = Number((((ipotp)*0.4)+(ipoctrl*0.6)));
 
       var termtt = Number(document.getElementById('termtt').value);
 
