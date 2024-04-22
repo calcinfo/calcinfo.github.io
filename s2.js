@@ -58,8 +58,14 @@ var fund=document.getElementById("fund").innerHTML = ((probtt)+(2*alg1tt)+(2*ana
   var fundcr= document.getElementById('fundcr').innerHTML = crid(fund,11,0);
 
 
-  var info2tt = Number(document.getElementById('info2tt').value);
+  var tictt = Number(document.getElementById('tictt').value);
+    var ipotp = Number(document.getElementById('ipotp').value) ;
 
+   
+
+    var ipoctrl = Number(document.getElementById('ipoctrl').value);
+
+    var ipott = document.getElementById('ana1tt').value = Number((((ipotp)*0.4)+(ipoctrl*0.6)));
 
       var termtt = Number(document.getElementById('termtt').value);
 
