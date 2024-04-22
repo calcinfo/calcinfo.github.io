@@ -8,7 +8,13 @@ if (tt> 10) {
   
 }
 function calcu() {
+  var probtd = Number(document.getElementById('probtd').value) ;
 
+ 
+
+  var probctrl = Number(document.getElementById('probctrl').value);
+
+   var probtt = document.getElementById('probtt').value =  Number((probtd)*0.4+(probctrl*0.6));
   var algotd = Number(document.getElementById('algotd').value) ;
 
  
