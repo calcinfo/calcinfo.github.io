@@ -113,7 +113,7 @@ var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(algott*3))/5;
 
 
 
-       var toto= Number(document.getElementById('toto').innerHTML) = Number((deco*5+metodo*3+tran*3+fund*5)/16);
+       var toto= document.getElementById('toto').innerHTML = Number((deco*5+metodo*3+tran*3+fund*5)/16);
   var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,(trancr+decocr+metodocr+fundcr));
 
 
