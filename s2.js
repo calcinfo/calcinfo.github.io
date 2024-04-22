@@ -103,6 +103,9 @@ var codtd = Number(document.getElementById('codtd').value) ;
 
   
 
+var tran= document.getElementById("deco").innerHTML = ((term)+(electt*2))/3;
+
+  var trancr= document.getElementById('trancr').innerHTML = crid(tran,3,0);
 var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(algott*3))/5;
 
   var decocr= document.getElementById('decocr').innerHTML = crid(deco,9,0);
@@ -111,7 +114,7 @@ var deco= document.getElementById("deco").innerHTML = ((codtt*2)+(algott*3))/5;
 
 
        var toto= document.getElementById('toto').innerHTML = (deco*5+metodo*3+tran*3+fund*5)/16;
-  var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,(eng1cr+decocr+metodocr+fundcr));
+  var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,(trancr+decocr+metodocr+fundcr));
 
 
 
