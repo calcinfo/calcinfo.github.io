@@ -14,7 +14,7 @@ function calcu() {
 
   var probctrl = Number(document.getElementById('probctrl').value);
 
-   var probtt = document.getElementById('probtt').value =  Number((probtd)*0.4+(probctrl*0.6));
+   var probtt = document.getElementById('probtt').value =  Number((probtd)*0.33+(probctrl*0.67));
   var algotd = Number(document.getElementById('algotd').value) ;
 
  
