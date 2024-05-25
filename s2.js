@@ -82,13 +82,13 @@ var metodo =document.getElementById("metodo").innerHTML = ((tictt*2)+(ipott))/3;
 
 
 
-    var electd = Number(document.getElementById('electd').value) ;
+    
 
   
 
     var electrl = Number(document.getElementById('electrl').value);
 
-    var electt = document.getElementById('electt').value = Number((((electd)*0.3)+(electrl*0.7)));
+    var electt = document.getElementById('electt').value = Number((electrl*1));
 
 
 var codtd = Number(document.getElementById('codtd').value) ;
