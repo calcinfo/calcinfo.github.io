@@ -86,9 +86,9 @@ var metodo =document.getElementById("metodo").innerHTML = ((tictt*2)+(ipott))/3;
 
   
 
-    var electrl = Number(document.getElementById('electrl').value);
+    
 
-    var electt = document.getElementById('electt').value = Number((electrl*1));
+    var electt = document.getElementById('electt').value ;
 
 
 var codtd = Number(document.getElementById('codtd').value) ;
