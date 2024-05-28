@@ -36,7 +36,7 @@ function calcu() {
 
     var alg1ctrl = Number(document.getElementById('alg1ctrl').value);
 
-    var alg1tt = document.getElementById('alg1tt').value = Number((((alg1ntd)*0.34)+(alg1ctrl*0.66)));
+    var alg1tt = document.getElementById('alg1tt').value = Number((((alg1ntd)*0.33)+(alg1ctrl*0.67)));
 
 
  
