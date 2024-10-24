@@ -5,15 +5,16 @@
 
   <head>
 
-     <link rel="icon" type="image/x-icon" href="icon.ico">
+     <link rel="icon" type="image/x-icon" href="ico.ico">
 
     <meta charset="utf-8">
 
-    <title>Semester 3</title>
+    <title>Semester 2</title>
 
     <!-- CSS only -->
 
     <script src="jquery.min.js"></script>
+   
 
 <link href="bootstrap.min.css" rel="stylesheet">
 
@@ -29,19 +30,20 @@
 
   <body>
 	
+ <center>
+<!-- Image and text -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
  <img  src="logo.png">
    
  <a style=" border-radius: 15px;" href="index.html"><b>S1</b></a>
  <a style=" border-radius: 15px;" href="s2.html"><b>S2</b></a>
-    <a style=" border-radius: 15px;" href=""><b>S4</b></a>
+    <a style=" border-radius: 15px;" href="s4.html"><b>S4</b></a>
 
 
       
   
 </nav>
-
-
+ </center>
 
 
 
@@ -56,7 +58,7 @@
 
                           <th scope="col">la matiere</th>
 
-                          <th scope="col">Note td</th>
+                          <th scope="col">la note td/20</th>
 
                       
 
@@ -73,49 +75,29 @@
                       </thead>
 
                       <tbody>
- <tr>
-
-                          <th scope="row">Analyse 3</th>
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="ana3td" >
-
-                        </td>
 
                     
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="ana3ctrl">
-
-                        </td>
-
-                        <td>
-
-                        none
-
-                        </td>
-
-                    
-
-                        <td>
-
-                           <input type="number" class="form-control" placeholder="total analyse 3" onkeyup="calcu()" id="ana3tt">
-
-                        </td>
-
-                        </tr>
-    
-              
+                   
 
                         <tr>
 
-                          <th scope="row">Analyse num</th>
+                          <th scope="row">AO</th>
 
                         <td>
 
-                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="anantd" >
+
+                        </td>
+
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="alg1ctrl">
+
+                        </td>
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="TP /20" onkeyup="calcu()"  id="alg1ntd">
 
                         </td>
 
@@ -123,13 +105,52 @@
 
                         <td>
 
-                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="ananctrl">
+                           <input type="number" class="form-control" placeholder="total AO" onkeyup="calcu()" id="alg1tt">
+
+                        </td>
+
+                        </tr>
+
+                        <tr>
+
+                          <th scope="row">ASD</th>
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="ana1ntd" >
+
+                        </td>
+
+                    
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="ana1ctrl">
 
                         </td>
 
                         <td>
+                        <input type="number" class="form-control" placeholder="note tp /20" onkeyup="calcu()" id="ana1ntp" >
+                         
 
-                          <input type="number" class="form-control" placeholder="note TP /20" onkeyup="calcu()"  id="anantp">
+                        </td>
+
+                    
+
+                        <td>
+
+                           <input type="number" class="form-control" placeholder="total ASD" onkeyup="calcu()" id="ana1tt">
+
+                        </td>
+
+                        </tr>
+                         <tr>
+
+                          <th scope="row">LM</th>
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="probtd" >
 
                         </td>
 
@@ -137,130 +158,222 @@
 
                         <td>
 
-                           <input type="number" class="form-control" placeholder="total anal num" onkeyup="calcu()" id="anantt">
+                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="probctrl">
+
+                        </td>
+
+                        <td>
+
+                         
+
+                        </td>
+
+                     
+
+                        <td>
+
+                           <input type="number" class="form-control" placeholder="total LM" onkeyup="calcu()" id="probtt">
+
+                        </td>
+
+                        </tr>
+<tr >
+
+                          <th  scope="row" style="background-color:#5FBDFF; ">Fundamental</th>
+
+
+                        <td style="background-color:#7B66FF;  ">
+
+                        <b style="text-color:blue;">note:</b>
+
+                          <span type="number"  id="fund"></span>
+				
+<b style="text-color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;credit:</b>
+
+                          <span type="number"  id="fundcr"></span>
+
+                        </td>
+
+                        <td style="background-color:white; ">
+
+                       
+
+                        </td>
+
+                        <td style="background-color:white; ">
+
+                          
+
+                        </td>
+
+                        <td style="background-color:white; " >
+
+                      
 
                         </td>
 
                         </tr>
 
-                        <tr>
+ <tr>
 
-                          <th scope="row">Ondes vib</th>
+                          <th scope="row">POO</th>
 
                         <td>
 
-                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="ovtd" >
+                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="algotd" >
 
                         </td>
 
-                   
+                  
 
                         <td>
 
-                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="ovctrl">
-
-                        </td>
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="note TP /20" onkeyup="calcu()"  id="ovtp">
-
-                        </td>
-
-
-                        <td>
-
-                           <input type="number" class="form-control" placeholder="total OV" onkeyup="calcu()" id="ovtt">
-
-                        </td>
-
-                        </tr>
-  <tr>
-
-                          <th scope="row">MDF</th>
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="mdftd" >
-
-                        </td>
-
-                   
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="mdfctrl">
+                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="algoctrl">
 
                         </td>
 
                         <td>
 
-                          <input type="number" class="form-control" placeholder="note TP /20" onkeyup="calcu()"  id="mdftp">
+                          <input type="number" class="form-control" placeholder="note TP /20" onkeyup="calcu()"  id="algotp">
 
                         </td>
 
+                     
 
                         <td>
 
-                           <input type="number" class="form-control" placeholder="total MDF" onkeyup="calcu()" id="mdftt">
+                           <input type="number" class="form-control" placeholder="total poo" onkeyup="calcu()" id="algott">
 
                         </td>
 
                         </tr>
 
-                          <th scope="row">Mécanique rat</th>
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="mrtd" >
-
-                        </td>
-
-                    
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="mrctrl">
-
-                        </td>
-
-                        <td>
-
-                        none
-
-                        </td>
-
-                    
-
-                        <td>
-
-                           <input type="number" class="form-control" placeholder="total MR" onkeyup="calcu()" id="mrtt">
-
-                        </td>
-
-                        </tr>
-    
-              
-                        <tr>
           
+ <tr>
 
-                          <th scope="row">informatique</th>
+                          <th scope="row">SI</th>
 
                         <td>
 
-                          none
+                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="codtd" >
+
+                        </td>
+
+                     
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="codctrl">
 
                         </td>
 
                         <td>
 
-                          none
+                         
+
+                        </td>
+
+                     
+
+                        <td>
+
+                           <input type="number" class="form-control" placeholder="total si" onkeyup="calcu()" id="codtt">
+
+                        </td>
+
+                        </tr>              
+
+ <tr>
+
+                          <th scope="row">TL</th>
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="coddtd" >
+
+                        </td>
+
+                     
+
+                        <td>
+
+                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="coddctrl">
 
                         </td>
 
                         <td>
 
-                          none
+                         
+
+                        </td>
+
+                     
+
+                        <td>
+
+                           <input type="number" class="form-control" placeholder="total sm" onkeyup="calcu()" id="coddtt">
+
+                        </td>
+
+                        </tr>
+
+<tr >
+
+                          <th  scope="row" style="background-color:#5FBDFF;  ">Fund2:</th>
+<td style="background-color:#7B66FF;  ">
+                         <b style="text-color:blue;">note:</b>
+
+                          <span type="number"  id="fund2"></span>
+	 <b style="text-color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;credit:</b>
+
+                          <span type="number"  id="fund2cr"></span>
+		    </td>
+                        <td style="background-color:white;  ">
+
+                    
+
+                        </td>
+
+                        <td style="background-color:white; ">
+
+                       
+
+                        </td>
+
+                        <td style="background-color:white; ">
+
+                          
+
+                        </td>
+
+                        <td style="background-color:white;  " >
+
+                         
+
+                        </td>
+
+                        </tr>
+
+
+ <tr>
+
+                          <th scope="row">English</th>
+
+                        <td>
+
+                           
+
+                        </td>
+
+                        <td>
+
+                           
+
+                        </td>
+
+                        <td>
+
+                           
 
                         </td>
 
@@ -268,142 +381,93 @@
 
                         <td>
 
-                           <input type="number" class="form-control" placeholder="note info /20" onkeyup="calcu()" id="infott">
+                           <input type="number" class="form-control" placeholder="note eng /20" onkeyup="calcu()" id="engtt">
 
                         </td>
 
                         </tr>
+                       
 
-                 
 
-                       <tr>
-                          <th scope="row">Dessin (DAO)</th>
 
-                        <td>
+   
 
-                          none
+                         
+<tr >
 
-                        </td>
+                          <th  scope="row" style="background-color:#5FBDFF; ">total</th>
 
-                        <td>
 
-                          none
+                        <td style="background-color:#5FBDFF;  ">
 
-                        </td>
+                    <b style="text-color:blue;">la note est:</b>
 
-                        <td>
-
-                          none
+                          <span type="number"  id="toto"></span>
 
                         </td>
 
-                  
+                        <td style="background-color:#5FBDFF; ">
 
-                        <td>
+                                           <b style="text-color:blue;">credit :</b>
 
-                           <input type="number" class="form-control" placeholder="note DAO /20" onkeyup="calcu()" id="destt">
-
-                        </td>
-
-                        </tr>
-
-                       <tr>
-
-                          <th scope="row">Englais</th>
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="note td /20" onkeyup="calcu()" id="engtd" >
-
-                        </td>
-
-                    
-
-                        <td>
-
-                          <input type="number" class="form-control" placeholder="control /20" onkeyup="calcu()"  id="engctrl">
-
-                        </td>
-
-                        <td>
-
-                        none
-
-                        </td>
-
-                    
-
-                        <td>
-
-                           <input type="number" class="form-control" placeholder="total Eng" onkeyup="calcu()" id="engtt">
-
-                        </td>
-
-                        </tr>
-    
+                          <span type="number"  id="ttcr"></span>
 
                         
-                        <tr>
 
-                          <th  scope="row">total</th>
+                        <td style="background-color:white; ">
 
-
-                        <td>
-
-                          none
+                          
 
                         </td>
 
-                        <td>
+                        <td style="background-color:white;  " >
 
-                          none
 
-                        </td>
-
-                        <td>
-
-                          none
-
-                        </td>
-
-                        <td style="background-color:#1dbf97; border-radius: 5px; " >
-
-                          <b style="text-color:blue;">la note est:</b>
-
-                          <span type="number"  id="tt"></span>
 
                         </td>
 
                         </tr>
+
 
                       </tbody>
 
                     </table>
 
-<footer class="bg-dark text-center text-lg-start">
 
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);color:#1dbf97;">
+
+
+
+<footer class="bg-dark text-center text-lg-start">
+  
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);color:#5FBDFF;">
     by: yah04dev
   </div>
- 
+
 </footer>
 
-
-
 <style>
+.navbar {
+    padding: 0.5rem 1rem; /* Adjust the padding as needed */
+}
+
+.navbar img {
+    max-height: 50px; /* Adjust the image height */
+}
+
+.navbar a {
+    padding: 0.25rem 0.5rem; /* Adjust the link padding */
+    font-size: 0.9rem; /* Adjust the font size */
+}
 a:link, a:visited {
   background-color: #f8f9fa;
   color: black;
   padding: 15px 25px;
   text-align: center;
-  text-decoration: none;
+  text-decoration:  ;
   display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: #1dbf97;
-  color:white;
-}
+
 .mynav{
 padding: 10px;
 border-color: #f8f9fa;
@@ -437,7 +501,7 @@ only screen and (max-width: 760px),
 
 
 
-	/* Hide table headers (but not display: none;, for accessibility) */
+	/* Hide table headers (but not display:  ;, for accessibility) */
 
 	thead tr {
 
@@ -459,7 +523,7 @@ only screen and (max-width: 760px),
 
 		/* Behave  like a "row" */
 
-		border: none;
+		border:  ;
 
 		border-bottom: 1px solid #eee;
 
@@ -507,11 +571,11 @@ html, body
 
     {
 
-      -ms-content-zooming:none;
+      -ms-content-zooming: ;
 
-      touch-action: none;
+      touch-action:  ;
 
-      content-zooming: none;
+      content-zooming:  ;
 
        // hide vertical
 
@@ -519,9 +583,9 @@ html, body
 
  // hide vertical
 
-    overflow-x: none;
+    overflow-x:  ;
 
-    }rflow-style: none;
+    }rflow-style:  ;
 
 
 
@@ -534,8 +598,10 @@ html, body
 }
 
 </style>
+
 </body>
 
 
 
 </html>
+
