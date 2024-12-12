@@ -21,11 +21,11 @@ function calcu() {
 
   var algoctrl = Number(document.getElementById('algoctrl').value);
 
-  var algotp = Number(document.getElementById('algotp').value);
+
 
  
 
-  var algott = document.getElementById('algott').value =  Number((algotd)*0.17+(algoctrl*0.66)+(algotp)*0.17);
+  var algott = document.getElementById('algott').value =  Number((algotd)*0.34+(algoctrl*0.66));
 
 
 
@@ -59,7 +59,7 @@ var codtd = Number(document.getElementById('codtd').value) ;
 
     var codctrl = Number(document.getElementById('codctrl').value);
 
-    var codtt = document.getElementById('codtt').value = Number((((codtd)*0.70)+(codctrl*0.30)));
+    var codtt = document.getElementById('codtt').value = Number((((codtd)*0.30)+(codctrl*0.70)));
 var coddtd = Number(document.getElementById('coddtd').value) ;
 
   
