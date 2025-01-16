@@ -46,12 +46,12 @@ function calcu() {
 
     var ana1ntd = Number(document.getElementById('ana1ntd').value) ;
 
-   var ana1ntp = Number(document.getElementById('ana1ntp').value) ;
+  
 
 
     var ana1ctrl = Number(document.getElementById('ana1ctrl').value);
 
-    var ana1tt = document.getElementById('ana1tt').value = Number((((ana1ntp)*0.2)+((ana1ntd)*0.2)+(ana1ctrl*0.6)));
+    var ana1tt = document.getElementById('ana1tt').value = Number((((ana1ntd)*0.2)+((ana1ntd)*0.2)+(ana1ctrl*0.6)));
   
 var codtd = Number(document.getElementById('codtd').value) ;
 
