@@ -66,7 +66,7 @@ var coddtd = Number(document.getElementById('coddtd').value) ;
 
     var coddctrl = Number(document.getElementById('coddctrl').value);
 
-    var coddtt = document.getElementById('coddtt').value = Number((((coddtd)*0.67)+(coddctrl*0.33)));
+    var coddtt = document.getElementById('coddtt').value = Number((((coddtd)*0.33)+(coddctrl*0.67)));
 
 var fund=document.getElementById("fund").innerHTML = ((2*probtt)+(2*alg1tt)+(3*ana1tt))/7;
 
