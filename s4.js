@@ -25,7 +25,7 @@ function calcu() {
 
  
 
-  var algott = document.getElementById('algott').value =  Number((algotd)*0.34+(algoctrl*0.66));
+  var algott = document.getElementById('algott').value =  Number((algotd)*0.3+(algoctrl*0.7));
 
 
 
