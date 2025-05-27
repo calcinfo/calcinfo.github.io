@@ -70,7 +70,7 @@ var coddtd = Number(document.getElementById('coddtd').value) ;
 
 var fund=document.getElementById("fund").innerHTML = ((2*probtt)+(2*alg1tt)+(3*ana1tt))/7;
 
-  var fundcr= document.getElementById('fundcr').innerHTML = crid(fund,15,0);
+  var fundcr= document.getElementById('fundcr').innerHTML = crid(fund,13,0);
 
 var fund2=document.getElementById("fund2").innerHTML = ((2*algott)+(3*codtt)+(2*coddtt))/7;
 
