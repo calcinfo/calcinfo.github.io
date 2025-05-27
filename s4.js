@@ -70,18 +70,18 @@ var coddtd = Number(document.getElementById('coddtd').value) ;
 
 var fund=document.getElementById("fund").innerHTML = ((2*probtt)+(2*alg1tt)+(3*ana1tt))/7;
 
-  var fundcr= document.getElementById('fundcr').innerHTML = crid(fund,13,0);
+  var fundcr= document.getElementById('fundcr').innerHTML = crid(fund,13,(crid(alg1tt,4,0)+crid(ana1tt,5,0)+crid(probtt,4,0)));
 
 var fund2=document.getElementById("fund2").innerHTML = ((2*algott)+(3*codtt)+(2*coddtt))/7;
 
-  var fund2cr= document.getElementById('fund2cr').innerHTML = crid(fund2,13,0);
+  var fund2cr= document.getElementById('fund2cr').innerHTML = crid(fund2,13,(crid(algott,4,0)+crid(codtt,5,0)+crid(coddtt,4,0)));
 
   var engtt = Number(document.getElementById('engtt').value);
 
   var ajtt = Number(document.getElementById('ajtt').value);
   var ajcr = crid(ajtt,2,0);
   var engcr = crid(engtt,2,0);
-
+  var trsn = crid(((ajtt+engtt)/2),4,(ajcr+engcr));
 
 
 
@@ -89,7 +89,7 @@ var fund2=document.getElementById("fund2").innerHTML = ((2*algott)+(3*codtt)+(2*
 
 
        var toto= document.getElementById('toto').innerHTML = Number((fund*7+fund2*7+engtt+ajtt)/16);
-  var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,(fundcr+fund2cr+engcr+ajcr));
+  var ttcr= document.getElementById('ttcr').innerHTML = crid(toto,30,(fundcr+fund2cr+trsn));
 
 
 
