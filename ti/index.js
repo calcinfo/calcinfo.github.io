@@ -10,7 +10,7 @@ function calcu() {
 
  
 
-  var ph1tt = document.getElementById('ph1tt').value =  Number((ph1ctrl*0.5)+(ph1ntp)*0.5);
+  var ph1tt = document.getElementById('ph1tt').value =  Number((ph1ctrl*0.4)+(ph1ntp)*0.6);
 
 
 
@@ -25,7 +25,7 @@ function calcu() {
 
   
 
-  var ch1tt = document.getElementById('ch1tt').value = Number((ch1ntd)*0.25+(ch1ctrl*0.5)+(ch1ntp*0.25));
+  var ch1tt = document.getElementById('ch1tt').value = Number((ch1ntd)*0.2+(ch1ctrl*0.6)+(ch1ntp*0.2);
 
 
 
@@ -38,7 +38,7 @@ function calcu() {
 
     var info1ctrl = Number(document.getElementById('info1ctrl').value);
 
-    var info1tt = document.getElementById('info1tt').value = Number((((info1td)*5)+(info1ctrl*5))/10);
+    var info1tt = document.getElementById('info1tt').value = Number((((info1td)*4)+(info1ctrl*6))/10);
 
   
 
@@ -52,7 +52,7 @@ function calcu() {
 
     var alg1ctrl = Number(document.getElementById('alg1ctrl').value);
 
-    var alg1tt = document.getElementById('alg1tt').value = Number((((alg1ntd)*5)+(alg1ctrl*5))/10);
+    var alg1tt = document.getElementById('alg1tt').value = Number((((alg1ntd)*4)+(alg1ctrl*6))/10);
 
 
 
@@ -64,7 +64,7 @@ function calcu() {
 
     var ana1ctrl = Number(document.getElementById('ana1ctrl').value);
 
-    var ana1tt = document.getElementById('ana1tt').value = Number((((ana1ntd)*5)+(ana1ctrl*5))/10);
+    var ana1tt = document.getElementById('ana1tt').value = Number((((ana1ntd)*4)+(ana1ctrl*6))/10);
 
 
 
@@ -76,7 +76,7 @@ function calcu() {
 
     var pro1ctrl = Number(document.getElementById('pro1ctrl').value);
 
-    var pro1tt = document.getElementById('pro1tt').value = Number((((pro1ntd)*3.3)+(pro1ctrl*6.7))/10);
+    var pro1tt = document.getElementById('pro1tt').value = Number((((pro1ntd)*4)+(pro1ctrl*6))/10);
 
 
 
@@ -95,3 +95,4 @@ function calcu() {
 
 
 }
+
