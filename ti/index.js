@@ -25,7 +25,7 @@ function calcu() {
 
   
 
-  var ch1tt = document.getElementById('ch1tt').value = Number((ch1ntd)*0.2+(ch1ctrl*0.6)+(ch1ntp*0.2);
+  var ch1tt = document.getElementById('ch1tt').value = Number((ch1ntd)*0.2+(ch1ctrl*0.6)+(ch1ntp*0.2));
 
 
 
@@ -95,4 +95,5 @@ function calcu() {
 
 
 }
+
 
