@@ -38,7 +38,7 @@ function calcu() {
 
     var info1ctrl = Number(document.getElementById('info1ctrl').value);
 
-    var info1tt = document.getElementById('info1tt').value = Number((((info1td)*3.3)+(info1ctrl*6.7))/10);
+    var info1tt = document.getElementById('info1tt').value = Number((((info1td)*5)+(info1ctrl*5))/10);
 
   
 
@@ -101,4 +101,5 @@ function calcu() {
 
 
 }
+
 
