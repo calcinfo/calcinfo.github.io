@@ -92,6 +92,26 @@ function calcu() {
     var eng1tt = document.getElementById('eng1tt').value = Number((((eng1tp)*5)+(eng1ctrl*5))/10);
 
 
+    // Get values and convert to float (0 if empty)
+    let alg1tt = parseFloat(document.getElementById("alg1tt").value) || 0;
+    let ch1tt  = parseFloat(document.getElementById("ch1tt").value)  || 0;
+    let ph1tt  = parseFloat(document.getElementById("ph1tt").value)  || 0;
+
+    let info1tt = parseFloat(document.getElementById("info1tt").value) || 0;
+    let eng1tt  = parseFloat(document.getElementById("eng1tt").value)  || 0;
+
+    let ana1tt = parseFloat(document.getElementById("ana1tt").value) || 0;
+    let pro1tt = parseFloat(document.getElementById("pro1tt").value) || 0;
+
+    // Calculations
+    let u1tt = ((2 * alg1tt) + (3 * ch1tt) + (3 * ph1tt))/8;
+    let u2tt = (info1tt + eng1tt)/2;
+    let u3tt = (ana1tt + pro1tt)/2;
+
+    // Set results (if they are input fields)
+    document.getElementById("u1tt").value = u1tt;
+    document.getElementById("u2tt").value = u2tt;
+    document.getElementById("u3tt").value = u3tt;
 
 
 
@@ -101,5 +121,6 @@ function calcu() {
 
 
 }
+
 
 
